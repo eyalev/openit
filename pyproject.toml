@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openit"
-version = "0.1.1"
+version = "0.1.5"
 description = ""
 authors = ["Eyal Levin <eyalev@gmail.com>"]
 
@@ -10,8 +10,7 @@ o = "openit.main:main"
 [tool.poetry.dependencies]
 python = "^3.6"
 click = "^7.1.2"
-pyyaml = "^5.3.1"
-pobject = "^0.1.1"
+pobject = "^0.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

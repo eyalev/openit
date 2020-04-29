@@ -92,11 +92,11 @@ dev = ["pre-commit", "tox"]
 
 [[package]]
 category = "main"
-description = ""
+description = "pobject"
 name = "pobject"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "0.1.1"
+version = "0.1.2"
 
 [package.dependencies]
 pyyaml = ">=5.3.1,<6.0.0"
@@ -181,7 +181,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "de58d8b5355314351861bdc99493b8e6156d9ecda019c46cc022fa9971074c35"
+content-hash = "50f2135508a41fc1b47a8eb1ddb30a1ed28814237b8e73846070ebeb75224036"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -218,8 +218,8 @@ pluggy = [
     {file = "pluggy-0.13.1.tar.gz", hash = "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0"},
 ]
 pobject = [
-    {file = "pobject-0.1.1-py3-none-any.whl", hash = "sha256:68c9212fc75ee9d280b749f7807db722e04ece7a79970219b237303269676f04"},
-    {file = "pobject-0.1.1.tar.gz", hash = "sha256:d7cc67653a58b5e6943a4fac105986a7d6c02e84b830853fabf1a1b9803b98be"},
+    {file = "pobject-0.1.2-py3-none-any.whl", hash = "sha256:e238a9cbc21c81e8b083eefbc6af44381866bb59d1f70221b8dad0df992d297f"},
+    {file = "pobject-0.1.2.tar.gz", hash = "sha256:a25963fda15a44390b80e85e997b5b07a74993d5fb7bda26bcb299740d4926e4"},
 ]
 py = [
     {file = "py-1.8.1-py2.py3-none-any.whl", hash = "sha256:c20fdd83a5dbc0af9efd622bee9a5564e278f6380fffcacc43ba6f43db2813b0"},
