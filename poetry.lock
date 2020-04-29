@@ -91,6 +91,17 @@ version = ">=0.12"
 dev = ["pre-commit", "tox"]
 
 [[package]]
+category = "main"
+description = ""
+name = "pobject"
+optional = false
+python-versions = ">=3.6,<4.0"
+version = "0.1.1"
+
+[package.dependencies]
+pyyaml = ">=5.3.1,<6.0.0"
+
+[[package]]
 category = "dev"
 description = "library with cross-python path, ini-parsing, io, code, log facilities"
 name = "py"
@@ -170,7 +181,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "0d5f64978f6dc491bdcbc89f6e9eb1056c7843506b4db2f19cd6f13666256367"
+content-hash = "de58d8b5355314351861bdc99493b8e6156d9ecda019c46cc022fa9971074c35"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -205,6 +216,10 @@ packaging = [
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
     {file = "pluggy-0.13.1.tar.gz", hash = "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0"},
+]
+pobject = [
+    {file = "pobject-0.1.1-py3-none-any.whl", hash = "sha256:68c9212fc75ee9d280b749f7807db722e04ece7a79970219b237303269676f04"},
+    {file = "pobject-0.1.1.tar.gz", hash = "sha256:d7cc67653a58b5e6943a4fac105986a7d6c02e84b830853fabf1a1b9803b98be"},
 ]
 py = [
     {file = "py-1.8.1-py2.py3-none-any.whl", hash = "sha256:c20fdd83a5dbc0af9efd622bee9a5564e278f6380fffcacc43ba6f43db2813b0"},
