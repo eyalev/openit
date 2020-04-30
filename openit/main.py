@@ -19,7 +19,6 @@ def main(arg):
         url = sites_dict[arg]
         command = f"google-chrome --new-window {url}"
         subprocess.call(shlex.split(command))
-        # print(command)
     else:
         print("No match")
 
